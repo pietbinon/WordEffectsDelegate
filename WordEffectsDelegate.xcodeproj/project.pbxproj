@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		77289A111E6E259B00E0AD59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77289A101E6E259B00E0AD59 /* main.m */; };
+		77289A191E6E25E900E0AD59 /* InputLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 77289A181E6E25E900E0AD59 /* InputLogic.m */; };
+		77289A1C1E6E279C00E0AD59 /* UppercaseIt.m in Sources */ = {isa = PBXBuildFile; fileRef = 77289A1B1E6E279C00E0AD59 /* UppercaseIt.m */; };
+		77289A1F1E6E27AF00E0AD59 /* LowercaseIt.m in Sources */ = {isa = PBXBuildFile; fileRef = 77289A1E1E6E27AF00E0AD59 /* LowercaseIt.m */; };
+		77289A221E6E2CE400E0AD59 /* NumberizeIt.m in Sources */ = {isa = PBXBuildFile; fileRef = 77289A211E6E2CE400E0AD59 /* NumberizeIt.m */; };
+		77289A251E6E2CFC00E0AD59 /* CanadianizeIt.m in Sources */ = {isa = PBXBuildFile; fileRef = 77289A241E6E2CFC00E0AD59 /* CanadianizeIt.m */; };
+		77289A281E6E2D3200E0AD59 /* RespondIt.m in Sources */ = {isa = PBXBuildFile; fileRef = 77289A271E6E2D3200E0AD59 /* RespondIt.m */; };
+		77289A2B1E6E2D4000E0AD59 /* DeSpaceIt.m in Sources */ = {isa = PBXBuildFile; fileRef = 77289A2A1E6E2D4000E0AD59 /* DeSpaceIt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,20 @@
 /* Begin PBXFileReference section */
 		77289A0D1E6E259B00E0AD59 /* WordEffectsDelegate */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WordEffectsDelegate; sourceTree = BUILT_PRODUCTS_DIR; };
 		77289A101E6E259B00E0AD59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77289A171E6E25E900E0AD59 /* InputLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputLogic.h; sourceTree = "<group>"; };
+		77289A181E6E25E900E0AD59 /* InputLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputLogic.m; sourceTree = "<group>"; };
+		77289A1A1E6E279C00E0AD59 /* UppercaseIt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UppercaseIt.h; sourceTree = "<group>"; };
+		77289A1B1E6E279C00E0AD59 /* UppercaseIt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UppercaseIt.m; sourceTree = "<group>"; };
+		77289A1D1E6E27AF00E0AD59 /* LowercaseIt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowercaseIt.h; sourceTree = "<group>"; };
+		77289A1E1E6E27AF00E0AD59 /* LowercaseIt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LowercaseIt.m; sourceTree = "<group>"; };
+		77289A201E6E2CE400E0AD59 /* NumberizeIt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberizeIt.h; sourceTree = "<group>"; };
+		77289A211E6E2CE400E0AD59 /* NumberizeIt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberizeIt.m; sourceTree = "<group>"; };
+		77289A231E6E2CFC00E0AD59 /* CanadianizeIt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanadianizeIt.h; sourceTree = "<group>"; };
+		77289A241E6E2CFC00E0AD59 /* CanadianizeIt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanadianizeIt.m; sourceTree = "<group>"; };
+		77289A261E6E2D3200E0AD59 /* RespondIt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RespondIt.h; sourceTree = "<group>"; };
+		77289A271E6E2D3200E0AD59 /* RespondIt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RespondIt.m; sourceTree = "<group>"; };
+		77289A291E6E2D4000E0AD59 /* DeSpaceIt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeSpaceIt.h; sourceTree = "<group>"; };
+		77289A2A1E6E2D4000E0AD59 /* DeSpaceIt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeSpaceIt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,20 @@
 			isa = PBXGroup;
 			children = (
 				77289A101E6E259B00E0AD59 /* main.m */,
+				77289A171E6E25E900E0AD59 /* InputLogic.h */,
+				77289A181E6E25E900E0AD59 /* InputLogic.m */,
+				77289A1A1E6E279C00E0AD59 /* UppercaseIt.h */,
+				77289A1B1E6E279C00E0AD59 /* UppercaseIt.m */,
+				77289A1D1E6E27AF00E0AD59 /* LowercaseIt.h */,
+				77289A1E1E6E27AF00E0AD59 /* LowercaseIt.m */,
+				77289A201E6E2CE400E0AD59 /* NumberizeIt.h */,
+				77289A211E6E2CE400E0AD59 /* NumberizeIt.m */,
+				77289A231E6E2CFC00E0AD59 /* CanadianizeIt.h */,
+				77289A241E6E2CFC00E0AD59 /* CanadianizeIt.m */,
+				77289A261E6E2D3200E0AD59 /* RespondIt.h */,
+				77289A271E6E2D3200E0AD59 /* RespondIt.m */,
+				77289A291E6E2D4000E0AD59 /* DeSpaceIt.h */,
+				77289A2A1E6E2D4000E0AD59 /* DeSpaceIt.m */,
 			);
 			path = WordEffectsDelegate;
 			sourceTree = "<group>";
@@ -119,7 +154,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77289A2B1E6E2D4000E0AD59 /* DeSpaceIt.m in Sources */,
+				77289A1C1E6E279C00E0AD59 /* UppercaseIt.m in Sources */,
+				77289A221E6E2CE400E0AD59 /* NumberizeIt.m in Sources */,
+				77289A251E6E2CFC00E0AD59 /* CanadianizeIt.m in Sources */,
 				77289A111E6E259B00E0AD59 /* main.m in Sources */,
+				77289A1F1E6E27AF00E0AD59 /* LowercaseIt.m in Sources */,
+				77289A191E6E25E900E0AD59 /* InputLogic.m in Sources */,
+				77289A281E6E2D3200E0AD59 /* RespondIt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
